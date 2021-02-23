@@ -10,4 +10,4 @@ app.listen(process.env.APP_PORT, () => {
     console.log("Server up and running on PORT no :", process.env.APP_PORT);
 });
 
-// main page.
+// main

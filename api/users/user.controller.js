@@ -83,12 +83,12 @@ module.exports = {
             if (!results) {
                 return res.json({
                     success: 0,
-                    message: "Opps.. Record Not Found"
+                    message: "Record Not Found"
                 });
             }
             return res.json({
                 success: 1,
-                 message: "deleted successfully!"
+                 message: "deleted successfully"
             });
         });
     }
