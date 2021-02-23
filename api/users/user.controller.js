@@ -33,7 +33,7 @@ module.exports = {
             if (!results) {
                 return res.json({
                     success: 0,
-                    message: "Record not Found"
+                    message: "No Record Found"
                 });
             }
             return res.json({
@@ -64,12 +64,12 @@ module.exports = {
             if (!results) {
                 return res.json({
                    success: 0,
-                   message: "Failed to update user"  
+                   message: "user updation failed"  
                 });
             }
             return res.json({
                 success: 1,
-                message: "updated successfully"
+                message: "updated successfully!"
             });    
         });
     },
@@ -83,12 +83,12 @@ module.exports = {
             if (!results) {
                 return res.json({
                     success: 0,
-                    message: "Record Not Found"
+                    message: "Opps.. Record Not Found"
                 });
             }
             return res.json({
                 success: 1,
-                 message: "user deleted successfully"
+                 message: "deleted successfully!"
             });
         });
     }
